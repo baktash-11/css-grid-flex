@@ -1,0 +1,74 @@
+body{
+    background-color: #f1f5f9;
+    color: #555;
+    font-family: roboto;
+}
+
+/* menu  ======================menu */
+.wrapper{
+    padding: 3rem;
+    text-align: center;
+    color: #333;
+    background-color: #ddd6fe;
+}
+
+.menu{
+    background-color: white;
+    padding: .5rem;
+    border-radius: 2rem;
+
+    /* displa flex */
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.menu a{
+    background-color: #eff6ff;
+    padding: 0.6rem 1.5rem;
+    border-radius: 2rem;
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+/* card  ======================card */
+.card{
+    background-color: white;
+    padding: 2.5rem;
+    max-width: 16rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: justify;
+
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+h3{
+    color:#2563eb;
+    margin: 0;
+    font-weight: 200;
+}
+p{
+    line-height: 1.5;
+}
+.links a{
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #bfdbfe;
+    border-radius: 2.5px;
+    font-size: 0.8rem;
+    color: black;
+
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* top compaines */

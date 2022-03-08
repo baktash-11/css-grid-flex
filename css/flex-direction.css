@@ -1,0 +1,73 @@
+.flex-direction {
+    background-color: white;
+    width: 330px;
+    height: 450px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.link {
+    display: block;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login-link {
+    background-color: #018ddd;
+    color: white;
+}
+
+.signup-link {
+    color: #018ddd;
+    border: solid 1px #018ddd;
+}
+
+.container-cernter {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+}
+
+/* pat 2 */
+.card {
+    background-color: white;
+    width: 330px;
+    height: 450px;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 40px;
+
+}
+
+.icon-fa {
+    font-size: 3rem;
+    color: #064789;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: bold;
+
+}
+
+.card span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #064789;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: start;
+    justify-content: space-between;
+}

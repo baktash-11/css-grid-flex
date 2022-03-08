@@ -1,0 +1,101 @@
+body{
+    color: #333;
+
+}
+h3, p{
+    margin: 0;
+    padding: 0;
+}
+.team-profile{
+    text-align: center;
+    padding: 15px 25px;
+}
+.team-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+.member-role{
+    font-size: 0.9rem;
+    color: #999;
+}
+.team-member{
+    margin: 15px 0 5px;
+}
+
+/* flex ============================================= */
+.container{
+    margin: 60px 0;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin: auto;
+    text-align: center;
+    color: #999;
+    padding: 100px 0;
+}
+
+.responsive{
+    margin: 15px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap-reverse;
+    border-radius: 10px;
+    
+}
+
+/* top comapines */
+.logos{
+    margin:1.5rem auto  ;
+ 
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.logos img{
+    height: 3rem;
+    margin: 0 1rem 0.5rem;
+}
+
+.material-icon{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 2rem;
+    font-weight:100;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+.icon-wrap{
+    margin: 50px 20px;
+}
+.icon{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #DB2777;
+    color: white;
+    margin-right: .7rem;
+}
+
+.icon-text{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #DB2777;
+}
+.icon-wrap{
+    display: flex;
+    align-items:baseline;
+}

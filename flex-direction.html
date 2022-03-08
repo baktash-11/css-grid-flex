@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/mini-profile-card.css">
+    <link rel="stylesheet" href="./css/flex-direction.css">
+    <title>mini-profile-card</title>
+    <style>
+        .spacer {
+
+            margin: 50px;
+
+            
+        }
+        .container-list-of-profile{
+            
+            margin: auto;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: #F7EDE2;
+          
+            width: 70%;
+        }
+
+        .list-of-profile{
+            max-width: 600px;
+            margin: 60px auto;
+            color: #EEF0EB;
+            background-color: #153243;
+            box-shadow: rgb(0, 0, 0) 5px 8px 8px -5px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .profile-name{
+            font-weight: bold;
+            color: white;
+            margin-top: 5px;
+            padding-top:25px;
+            margin-bottom: 0;
+            
+        }
+
+        .title{
+            color: #B4B8AB;
+            margin-top: 3px;
+
+        }
+
+       .description{
+            font-weight: 300;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .profile-img{
+            border-radius: 5px;
+            box-shadow: rgb(0, 0, 0) 5px 8px 8px -10px;
+            margin: 0 15px;
+            padding-top: 0;
+           
+        }
+
+       .second{
+            transform: scaleX(-1);
+            
+       }
+
+       .list-of-profile{
+           display: flex;
+           flex-direction: column;
+           align-items:center;
+           justify-content:space-around;
+       }
+
+       .user-profile{
+           display: flex;
+           align-items: center;
+
+          
+       }
+       .user-profile:nth-child(even){
+            padding-top: 20px;
+            flex-direction: row-reverse;
+            text-align: right;
+           
+       }
+       
+
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container-service_">
+        <div class="flex-direction">
+            <div class="container-cernter">
+                <a href="#" class="link login-link">Login</a>
+                <a href="#" class="link signup-link">Create account</a>
+            </div>
+        </div>
+
+    </div>
+    <br class="spacer">
+    <!-- par2 -->
+    <div class="container-service_">
+        <div class="card">
+            <i class="icon-fa fa fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laudantium ratione cumque blanditiis ipsam
+                repellat? Necessitatibus quas sit officiis debitis voluptas nobis exercitationem quam. Ut.</p>
+            <span>Baktash Sana</span>
+        </div>
+
+    </div>
+
+    <!-- part3 -->
+
+    <div class="container-list-of-profile">
+        <div class="list-of-profile">
+            <div class="user-profile">
+                <img src="https://picsum.photos/id/832/130/130" alt="" class="profile-img">
+                <div>
+                    <h3 class="profile-name">First and Last Name</h3>
+                    <p class="title">Production Manager.</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente soluta corporis architecto atque?</p>
+                </div>
+            </div>
+
+            <div class="user-profile">
+                <img src="https://picsum.photos/id/1027/130/130" alt="" class="profile-img second">
+                <div>
+                    <h3 class="profile-name">Last name and first name</h3>
+                    <p class="title">Human Resources Manager</p>
+                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat nihil quia maiores reiciendis incidunt alias voluptatum, natus et?</p>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+    
+
+</div>
+
+</body>
+
+</html>
