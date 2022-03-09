@@ -23,12 +23,12 @@
     color: white;
 }
 
-.signup-link {
+.sign-up-link {
     color: #018ddd;
     border: solid 1px #018ddd;
 }
 
-.container-cernter {
+.container-center {
     height: 100%;
     display: flex;
     justify-content: center;

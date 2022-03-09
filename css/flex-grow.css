@@ -1,0 +1,227 @@
+:root {
+    --main-body-bg-color: rgb(0, 29, 61);
+    --main-bg-color: rgb(0, 53, 102);
+    --main-button-color: rgb(155, 34, 38);
+    --secondary-text-color: rgb(168, 218, 220);
+    --main-text-color: rgb(241, 250, 238);
+    --box-shadow: rgb(0, 0, 0) 5px 8px 8px -10px;
+    --footer-bg-color: rgb(20, 33, 61);
+}
+
+.wrapper-p1 {
+    margin: 3rem auto;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: var(--main-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+
+}
+
+#email {
+    padding: 1rem 1.1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#btn-submit {
+    padding: 1rem 1.1rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    background-color: var(--main-button-color);
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+
+}
+
+.container-wrapper {
+    display: flex;
+}
+
+#email {
+    flex-grow: 1;
+}
+
+/* Sticky Footer */
+
+.wrapper-p2 {
+    margin: 3rem auto;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: var(--main-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    height: 80vh;
+
+}
+
+.main-article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+p {
+    line-height: 1.4;
+    letter-spacing: 1.2;
+    font-weight: 300;
+}
+
+.main-article img {
+    padding-left: 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    width: 250px;
+}
+
+.main-article p {
+    text-align: justify;
+}
+
+.title {
+    color: var(--secondary-text-color);
+    font-weight: 300;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    height: 200px;
+    padding: 10px;
+
+
+}
+
+/* flex */
+.wrapper-p2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky-footer {
+    flex-grow: 1;
+}
+
+/* card with header and footer */
+
+.wrapper-p3 {
+    margin: 3rem auto;
+    max-width: 20rem;
+    padding: 2rem;
+    background-color: var(--main-text-color);
+    color: var(--main-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    height: 30vh;
+
+}
+
+.wrapper-p3 a {
+    background-color: var(--main-button-color);
+    padding: .7rem 7rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    font-weight: bold;
+    color: var(--main-text-color);
+}
+
+.wrapper-p3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-p3 p {
+    text-align: justify;
+    font-weight: bold;
+    color: black;
+
+    flex-grow: 1;
+
+}
+
+/* Tabs Hover Effect  */
+.wrapper-p4 {
+    margin: auto;
+    max-width: 50rem;
+
+
+
+}
+
+.wrapper-p4 ul {
+    padding: 0;
+    margin: 30px auto;
+    width: 700px;
+    background-color: var(--main-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+}
+
+ul li {
+    padding: 20px;
+    text-align: center;
+    transition: flex;
+    transition-duration: 0.4s;
+}
+
+ul li:hover {
+    cursor: pointer;
+    border-bottom: solid 3px var(--secondary-text-color);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    flex-grow: 1;
+}
+
+ul li:hover {
+    flex-grow: 3;
+}
+
+/* Variable Width Responsive Buttons */
+.wrapper-p5{
+    width: 70%;
+    margin: auto;
+
+}
+.wrapper-p5 button {
+    background-color: var(--main-button-color);
+    padding: 0.8rem 1rem;
+    margin: 0 5px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--main-text-color);
+}
+
+.wrapper-p5 .container{
+    margin: auto;
+    background-color: var(--main-text-color);
+    padding:1.5rem ;
+    max-width: 800px;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.container button{
+    flex-grow: 1;
+}
+
+.container button:last-child{
+    flex-grow: 3;
+}
+
+.container button:hover{
+    cursor: pointer;
+}
