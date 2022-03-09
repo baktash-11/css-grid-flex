@@ -1,0 +1,91 @@
+:root {
+    --main-body-bg-color: rgb(0, 29, 61);
+    --main-bg-color: rgb(0, 53, 102);
+    --main-button-color: rgb(230, 57, 70);
+    --main-secondary-text-color: rgb(168, 218, 220);
+    --main-text-color: rgb(241, 250, 238);
+    --bevel-box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    --multi-layer-box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+
+}
+body{
+    box-sizing: border-box;
+}
+
+.part1{
+    /* width: 80rem; */
+    background-color: var(--main-bg-color);
+    margin: 0 auto;
+}
+.split h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.split p{
+    margin-top: 0.6rem;
+    font-weight: bold;
+    letter-spacing: .08rem;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+#teach{
+    background-color: rgb(33, 158, 188);
+}
+
+#learn{
+    background-color: rgb(255, 183, 3);
+    color: black;
+    
+}
+
+.split a {
+    display: inline-block;
+    margin-top: 1.2rem;
+    background-color: white;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-shadow: var(--bevel-box-shadow);
+}
+
+.container{
+    display:flex;   
+
+}
+
+.split{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* flex-direction: column; */
+    
+    
+    
+}
+.split{
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 810px) {
+    .container {
+        flex-direction: column-reverse;
+        
+    }
+    
+
+    
+}
+
+
+

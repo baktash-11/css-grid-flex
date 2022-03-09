@@ -1,0 +1,105 @@
+:root {
+    --main-body-bg-color: rgb(0, 29, 61);
+    --main-bg-color: rgb(0, 53, 102);
+    --main-button-color: rgb(230, 57, 70);
+    --main-secondary-text-color: rgb(168, 218, 220);
+    --main-text-color: rgb(241, 250, 238);
+    --main-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    --bevel-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    --multi-layer-box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.part1 {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: var(--main-text-color);
+    color: var(--main-body-bg-color);
+    border-radius: 10px;
+
+
+}
+
+.container-blog-post {
+    display: flex;
+    align-items: stretch;
+
+
+}
+
+.img-wrap {
+    margin-top: 20px;
+    margin: 1rem;
+    box-shadow: var();
+    flex-basis: 7rem;
+    flex-shrink: 0;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.5;
+    padding-right: 10px;
+}
+
+/* part 2 */
+/* Pricing Plans */
+
+.part2 {
+    max-width: 790px;
+    margin: 50px auto;
+    background-color: var(--main-text-color);
+    color: var(--main-body-bg-color);
+    border-radius: 10px;
+    padding: 0 10px;
+
+
+}
+.pricing-plan{
+    box-shadow: var(--main-box-shadow);
+    margin: 20px 10px;
+    background-color: var(--main-secondary-text-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pricing-plan h1{
+    font-size: 2reem;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+}
+.pricing-plan h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+.pricing-plan p{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.container-pricing-plan{
+    display: flex;
+    justify-content: center;
+
+}
+
+.highlight{
+    background-color: var(--main-button-color);
+    color: var(--main-text-color);
+}
+
+.pricing-plan{
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
