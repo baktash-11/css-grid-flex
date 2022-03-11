@@ -103,3 +103,59 @@ p {
     flex-grow: 1;
     flex-shrink: 1;
 }
+
+/* navigation-bar */
+
+.part3{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: var(--main-text-color);
+    border-radius: 10px;
+    
+}
+
+#logo-img{
+    color:#219EBC;
+    font-size: 2.6rem;
+    font-weight: bolder;
+}
+
+#logo-text{
+    font-family: 'Sansita Swashed', cursive;
+    color: var(--main-bg-color);
+    font-size: 1.2rem;
+    letter-spacing: .12rem;
+    font-weight: 500;
+
+}
+.btn{
+    background-color: #219EBC;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+
+ul li{
+    display: inline-block;
+    margin: 1.5rem;
+}
+ul li a{
+    color: var(--main-body-bg-color);
+    text-decoration: none;
+
+}
+header{
+    padding:0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-wrapper, .btn-wrapper{
+    flex: 1;
+}
+.btn-wrapper{
+    text-align: right;
+}
